@@ -1,0 +1,26 @@
+#container {
+    display: block;
+    width: 400px;
+    height: 200px;
+}
+
+.orange {
+    background: orange;    
+}
+
+.blue {
+    background: blue;    
+}
+
+#campoValidar {
+    float: left;   
+    display: block; 
+}
+
+.valido {
+    border:1px solid black;
+}
+
+.invalido {
+    border: 1px solid red;
+}

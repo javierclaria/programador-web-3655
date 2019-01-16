@@ -1,0 +1,57 @@
+body {
+	font-family: Verdana;
+}
+
+h2,h3 {
+	text-align: center;
+	font-size: 30px;
+	font-family: Verdana;
+}
+
+.box {
+	width: 50%;
+	float: left;
+}
+
+form {
+	width: 100%;
+	margin:auto;
+	display: inline-block;	
+}
+
+#ingresoDatos input, #eliminarAlumno input, #buscarAlumno input {
+    float: left;
+    width: 47%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    line-height: 35px;
+    padding-left: 0.5%;
+    font-size: 16px;
+    color: #878e95;
+    border-color:  #878e95;
+    border:1px solid;
+    display: block;
+}
+
+#ingresoDatos input[type="submit"] {
+	width: 97%;
+	background: #78aaf9;
+	border: 0px;
+	color: white !important;
+	font-weight: bold;
+	line-height: 35px;
+	border-radius: 5px;	
+	display: block;
+}
+
+#eliminarAlumno input[type="submit"] {
+	background: #de868a;
+	color: white;
+}
+
+#buscarAlumno input[type="submit"] {
+	background: #53a451;
+	color: white;
+}
