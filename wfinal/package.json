@@ -1,0 +1,23 @@
+{
+  "name": "finalprojecto",
+  "version": "1.0.0",
+  "description": "Ejercicio de proyecto final coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "server": "http-server",
+    "start": "webpack --mode=development & npm run server",
+    "build": "webpack --mode=production"
+  },
+  "author": "JavierClaria",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.1.2",
+    "crossroads": "^0.12.2",
+    "css-loader": "^2.1.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  }
+}

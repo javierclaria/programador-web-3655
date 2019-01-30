@@ -20,7 +20,6 @@ $( document ).ready(function() {
 
     var arg = {
         duration:10000,
-        easing: 'easeInOutElastic',
     }
     
     $('.figure').click(function(event) {
